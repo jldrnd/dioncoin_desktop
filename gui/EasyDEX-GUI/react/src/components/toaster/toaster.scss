@@ -1,0 +1,22 @@
+#toast-container {
+  .toast {
+    cursor: default;
+    box-shadow: 0 0 12px #999 !important;
+  }
+
+  > div {
+    padding: 15px 15px 15px 60px;
+    width: 310px;
+    opacity: 1;
+  }
+
+  .toastr--validate-address {
+    width: 430px;
+  }
+  .toast-warning {
+    background-color: #ff6600;
+  }
+  .toastr-wide {
+    width: 400px;
+  }
+}

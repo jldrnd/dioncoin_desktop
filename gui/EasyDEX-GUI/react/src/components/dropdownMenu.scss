@@ -1,0 +1,8 @@
+.dropdown-menu {
+  li {
+    cursor: pointer;
+  }
+  .no--hover {
+    pointer-events: none;
+  }
+}

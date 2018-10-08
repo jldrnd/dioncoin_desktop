@@ -1,0 +1,108 @@
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+  z-index: 100;
+}
+
+.navbar {
+  &.navbar-fixed-top {
+    .dropdown {
+      &.new-update-icon:before {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: #4caf50;
+        border-radius: 50%;
+        right: 28px;
+        top: 20px;
+        z-index: 10;
+      }
+      .new-update-icon-link {
+        a {
+          color: #fb8c00;
+        }
+      }
+      &.open {
+        .dropdown-menu {
+          right: 0;
+        }
+      }
+      .dropdown-menu {
+        display: block;
+        right: -180px;
+      }
+    }
+  }
+  .offline {
+    margin-top: 22px;
+
+    .offline-icon {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #f96868;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+  }
+}
+
+.navbar-nav > li > a.navbar-avatar,
+.navbar-toolbar > li > a.navbar-avatar {
+  &.dropdown-toggle {
+    font-size: 24px;
+    padding-top: 24px;
+
+    i {
+      position: relative;
+      top: -2px;
+    }
+  }
+}
+
+.coind-actions-menu {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+}
+
+.coin-tile-context-menu {
+  top: 45px;
+  left: -34px;
+
+  li {
+    color: #757575;
+  }
+}
+
+.navbar-toolbar {
+  .dropdown-menu:not(.dropdown-menu-media) {
+    overflow-y: auto;
+  }
+  > li {
+    > a {
+      &.padding-top-16 {
+        padding-top: 16px;
+      }
+    }
+  }
+}
+
+.site-navbar {
+  .navbar-brand-logo {
+    height: 32px;
+    width: 110px;
+
+    &.hidden-lg {
+      display: none;
+    }
+  }
+}
+
+.navbar-brand {
+  padding: 22px 15px;
+}
+
+.nav-top-menu {
+  height: 66px;
+}

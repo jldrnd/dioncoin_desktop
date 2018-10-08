@@ -1,0 +1,40 @@
+.login-settings-dropdown {
+  font-size: 16px;
+
+  .dropdown-menu {
+    left: 42%;
+    top: inherit;
+  }
+}
+
+.login-settings-dropdown-trigger {
+  cursor: pointer;
+}
+
+.login-settings-modal {
+  .modal-header {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  form {
+    width: 100%;
+    margin: 0;
+    margin-top: 25px;
+  }
+  .modal-body {
+    overflow-y: auto;
+    color: #757575;
+  }
+  .panel-title {
+    color: #757575;
+  }
+  a {
+    color: #fb8c00;
+  }
+  .form-control {
+    color: #757575;
+  }
+  input[type='number'],
+  input[type='text'] {
+    padding: 4px 5px;
+  }
+}

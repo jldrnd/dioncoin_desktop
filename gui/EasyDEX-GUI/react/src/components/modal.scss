@@ -1,0 +1,33 @@
+.modal {
+  color: #757575;
+
+  .modal-content {
+    .modal-header {
+      .close {
+        font-size: 28px;
+        position: absolute;
+        z-index: 100;
+        right: 20px;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .modal-body {
+    max-height: 80vh;
+  }
+}
+
+.modal-close-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.modal-backdrop {
+  transition: opacity 0.3s;
+  opacity: 0.5;
+}

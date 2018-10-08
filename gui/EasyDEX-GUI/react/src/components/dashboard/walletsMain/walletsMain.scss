@@ -1,0 +1,19 @@
+.background-color-white {
+  background-color: #fff;
+}
+
+.easydex-section-image {
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.coin-logo {
+  &.breadcrumb {
+    z-index: 99;
+  }
+}
+
+.page-content-native {
+  position: relative;
+  top: -20px;
+}

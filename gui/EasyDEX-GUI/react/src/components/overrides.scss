@@ -1,0 +1,265 @@
+body {
+  padding-top: 44px;
+}
+
+#app {
+  height: 100%;
+
+  > div {
+    height: 100%;
+  }
+}
+
+.page-main {
+  background: #f3f4f5;
+}
+
+#edexcoin_dashboardinfo a,
+.nav-top-menu,
+#kmd_txid_info_mdl .nav-tabs li,
+.pagination a,
+.action {
+  cursor: pointer;
+  cursor: hand;
+}
+
+#easydex-header-div {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.selectable {
+  user-select: auto;
+  cursor: inherit;
+}
+
+.seed-toggle {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.radio-custom {
+  input {
+    cursor: pointer;
+    cursor: hand;
+  }
+}
+
+.collapse {
+  overflow: hidden;
+  display: block;
+}
+
+.collapse-active,
+.panel>:not(.panel-loading):not(.collapsing) {
+  transition: height 0.3s ease-out;
+}
+
+.center {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.breadcrumb > li + li:before {
+  display: none;
+}
+
+#js-copytextarea {
+  opacity: 0;
+  height: 10px;
+  width: 200px;
+}
+
+.panel-actions {
+  .progress {
+    width: inherit;
+  }
+}
+
+.clipboard-edexaddr {
+  margin-left: 10px;
+}
+
+.backround-gray {
+  background: #f3f4f5;
+}
+
+.table-striped {
+  > tbody {
+    > tr.hover--none {
+      background-color: inherit;
+    }
+  }
+}
+
+.toggle-filters:hover {
+  background-color: #f3f1f1;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.alert-info,
+.alert-warning {
+  width: 97.1%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-warning {
+  color: #FF6600;
+}
+
+.link {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  &.disabled {
+    opacity: 1;
+    cursor: default !important;
+  }
+  .bs-caret {
+    display: none;
+  }
+}
+
+.no-borders {
+  tbody > tr > td {
+    border: none;
+  }
+}
+
+.push-right {
+  float: right;
+}
+.push-left {
+  float: left;
+}
+
+.col-red {
+  color: #f96868;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.__react_component_tooltip {
+  &.type-dark {
+    background-color: #000;
+  }
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.page-aside {
+  position: fixed;
+  z-index: 99;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.kmd-mobile-icon {
+  display: none;
+}
+
+.blur-sensitive-data {
+  .blur {
+    filter: blur(4px);
+  }
+}
+
+label,
+button,
+.toggle-label,
+.placeholder-label,
+.addcoin-shortcut,
+.floating-label,
+.icon {
+  user-select: none;
+}
+
+.overflow-x {
+  overflow-x: auto;
+}
+
+.form-material .control-label.bold,
+.bold {
+  font-weight: 700;
+}
+
+.word-break--all {
+  word-break: break-all;
+}
+
+.nbsp {
+  margin-right: 3px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.text {
+  &-align-center {
+    text-align: center;
+  }
+  &-align-left {
+    text-align: left;
+  }
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.horizontal-padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+span[disabled] {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
