@@ -89,4 +89,4 @@ electron-installer-debian
 
 electron-installer-redhat
 
-refer to ./make-deb.js and ./make-rpm.js
+refer to ./make-deb.js and ./make-rpm.js# dioncoin_desktop
